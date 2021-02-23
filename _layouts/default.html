@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <style>div {background-image: url('https://images.unsplash.com/photo-1534739339058-54160adeeacc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1648&q=80');}</style>
 
     {% include meta.html %}
 
@@ -35,7 +36,6 @@
     </div>
 
     <div id="main" role="main" class="container">
-       <div style="background-image: url('https://images.unsplash.com/photo-1534739339058-54160adeeacc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1648&q=80');">
       {{ content }}
     </div>
 
